@@ -1,0 +1,3569 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: auto;
+    width: 1170px;
+}
+.Logo-nav{
+    width: 82px;
+    height: 80px;
+    float: left;
+    margin-top: 21px;
+}
+.nav-bar{
+    width: 1170px;
+    margin: auto;
+    height: 80px;
+}
+@font-face {
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 400;
+    src: local("MullerRegular"),
+         url(/fonts/MullerRegular.woff) format('woff');
+    font-display: swap;
+    
+}
+@font-face {
+    font-family: Muller;
+    font-style: light;
+    font-weight: 300;
+    src: local("Mullerlight"),
+         url(/fonts/MullerLight.woff) format('woff');
+    font-display: swap;
+    
+}
+@font-face {
+    font-family: Muller;
+    font-style: medium;
+    font-weight: 500;
+    src: local("MullerMedium"),
+         url(/fonts/MullerMedium.woff) format('woff');
+    font-display: swap;
+    
+}
+@font-face {
+    font-family: Muller;
+    font-style: medium;
+    font-weight: 250;
+    src: local("MullerUltraLight"),
+         url(/fonts/MullerUltraLight.woff) format('woff');
+    font-display: swap;
+    
+}
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 35px;
+}
+.breadcrumps{
+    width: 1170px;
+    text-align: left;
+    list-style: none;
+    /* padding: 0!important; */
+}
+.breadcrumps li{
+    font-family: "Muller";
+    margin: 4px 14px -9px 0 !important;
+    display: inline-block !important;
+    vertical-align: top;
+    padding: 0!important;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 300;
+    position: relative;
+    color: #000000;
+}
+.breadcrumps li a{
+    color: #000000;
+    font-size: 20px;
+    line-height: 17px;
+    text-decoration: none;
+    font-weight: 300;
+}
+.breadcrumps li a.main-link{
+    width: 24px;
+    display: block;
+    line-height: 30px;
+    height: 24px;
+    background: url(/img/dom.png);
+    transition: all 0.2s ease;
+}
+.breadcrumps li a.main-link:hover{
+    width: 30px;
+    display: block;
+    line-height: 30px;
+    height: 30px;
+    background: url(/img/dom1.png);
+    transition: all 0.8s ease;
+}
+.breadcrumps li:after{
+    content: "/";
+    margin: 0 0;
+    position: absolute;
+    top: 0px;
+    right: -12px;
+    color: #000000;
+}
+#Verh{
+    font-family: "Muller";
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+    font-size: 20px;
+    display: flex;
+    font-weight: normal;
+}
+#Verh li { display: inline;}
+#Verh a {
+    color: black;
+    padding-left: 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 53px;
+    transition: all 0.8s ease;
+}
+#Verh a:hover{
+    text-shadow: 2px 5px 15px  black;
+    transition: all 0.5s ease;
+    text-decoration: underline 2px;
+    text-underline-offset: 5px;
+}
+.banner{
+    margin-top: 50px;
+    display: flex;
+}
+.blue{
+    height: 364px;
+    width: 1170px;
+    background-color: #2E3092;
+    border-radius: 45px 0px 0px 45px;
+}
+.gradient{
+    margin: auto;  
+    top: 0;
+    left: 0;
+    height: 364px;
+    width: 1169px;
+    background: linear-gradient(280deg, rgba(255, 255, 255, 0) 40%, #2E3092 85%),
+    url(/img/glavnay.jpg) no-repeat center center / cover;
+    background-position: right;
+    border-radius: 0px 45px 45px 0px;
+}
+.banner1{
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 38px;
+    color: white;
+    padding-top: 81px;
+    padding-left: 90px;
+}
+.catalog-knopka{
+    border-radius: 47.5px;
+    border-width: 0;
+    font-size: 20px;
+    font-family: 'Muller';
+    margin-top: 43px;  
+    margin-left: 176px;
+    padding-left: 84.87px;
+    padding-top: 26.5px;
+    padding-bottom: 26.4px;
+    padding-right:84.87px ;
+    transition: all 0.8s ease;
+}
+.catalog-knopka:hover{
+    border-radius: 47.5px;
+    border-width: 0;
+    font-size: 20px;
+    font-family: 'Muller';
+    font-weight: 500;
+    margin-top: 43px;  
+    margin-left: 176px;
+    padding-left: 107px;
+    padding-top: 33px;
+    padding-bottom: 33.25px;
+    padding-right:106.73px ;
+    transition: all 0.5s ease;
+    box-shadow: 2px 25px 75px  rgb(255, 255, 255);
+}
+.ocompanii{
+    margin-top: 50px;
+    font-size: 36px;
+    font-family: Muller;
+    font-weight: 400;
+}
+.slevakartinki{
+    display: flex;
+    margin-top: 27px;
+    font-family: Muller;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 118%;
+}
+.text{
+    margin-top: 8px;
+}
+.text p{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.kart_glav{
+    transition: all 0.8s ease;
+    width: 565px;
+    height: 365px;
+    border-radius: 45px 45px 45px 45px;
+}
+.kart_glav:hover{
+    transition: all 0.5s ease;
+    width: 590px;
+    height: 400px;
+}
+.certifikat{
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: 36px;
+    font-family: 'Muller';
+    font-weight: 400;
+}
+.lichenzi{
+    display: flex;
+    margin-top: 50px;
+}
+.certif{
+    width: 279px;
+    padding-right: 19px;
+}
+.niz-bar{
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    border-radius: 30px 30px 0px 0px;
+}
+.chast1{
+    padding-left: 50px;
+    font-size: 20px;
+    font-family: 'Muller';
+}
+.chasti1{
+    padding-top: 47.62px;
+}
+.text1chast{
+    padding-right: 105px;
+    padding-top: 53.35px;
+    letter-spacing: -0.015em;
+}
+.text1chasti{
+    padding-right: 56px;
+    padding-top: 7.76px;
+    padding-bottom: 79.74px;
+    letter-spacing: -0.015em;
+}
+
+.chast2{
+    padding-top: 47.62px;
+}
+.text2chast{
+    font-size: 20px;
+    font-family: 'Muller';
+    font-weight: 500;
+    padding-bottom: 35px;
+    letter-spacing: -0.015em;
+}
+.text2chasti{
+    font-size: 20px;
+    font-family: 'Muller';
+    font-weight: 300;
+    padding-bottom: 12.61px;
+    transition: all 0.8s ease;
+    letter-spacing: -0.015em;
+}
+.text2chasti:hover{
+    text-shadow: 2px 5px 15px  black;
+    transition: all 0.5s ease;
+    text-decoration: underline 2px;
+    text-underline-offset: 5px;
+}
+.chast3{
+    padding-top: 47.62px;
+}
+.text3chast{
+    padding-left: 57px;
+    font-size: 20px;
+    font-family: 'Muller';
+    font-weight: 500;
+    padding-bottom: 35px;
+    letter-spacing: -0.015em;
+}
+.text3chasti{
+    padding-left: 57px;
+    font-size: 20px;
+    font-family: 'Muller';
+    font-weight: 300;
+    padding-bottom: 12.61px;
+    transition: all 0.8s ease;
+    letter-spacing: -0.015em;
+}
+.text3chasti:hover{
+    text-shadow: 2px 5px 15px  black;
+    transition: all 0.5s ease;
+    text-decoration: underline 2px;
+    text-underline-offset: 5px;
+}
+.chast4{
+    padding-top: 47.62px;
+}
+.text4chast{
+    letter-spacing: -0.015em;
+    padding-left: 57px;
+    font-size: 20px;
+    font-family: 'Muller';
+    font-weight: 500;
+    padding-bottom: 35px;
+}
+.text4chasti{
+    padding-left: 57px;
+    font-size: 20px;
+    font-family: 'Muller';
+    font-weight: 300;
+    padding-bottom: 12.61px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    transition: all 0.8s ease;
+}
+.text4chasti:hover{
+    transition: all 0.5s ease;
+    text-decoration: underline 1px;
+    text-underline-offset: 5px;
+}
+.ikonki{
+    padding-left: 57px;
+    display: flex;
+}
+.vk{
+    width: 50px;
+    height: 50px;
+    transition: all 0.8s ease;
+}
+.vk:hover{
+    transition: all 0.5s ease;
+    width: 60px;
+    height: 60px;
+    padding-left: 15px;
+}
+.odnak{
+    transition: all 0.8s ease;
+    padding-left: 10px;
+    width: 52px;
+    height: 52px;
+}
+.odnak:hover{
+    transition: all 0.5s ease;
+    width: 60px;
+    height: 60px;
+    padding-left: 15px;
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+a:active {
+    color: black;
+    text-decoration: none;
+}
+.baner2{
+    margin-top: 29px;
+    display: flex;
+}
+.gradient2{
+    margin: auto;  
+    top: 0;
+    left: 0;
+    height: 364px;
+    width: 1169px;
+    background: linear-gradient(280deg, rgba(255, 255, 255, 0) 40%, #2E3092 85%),
+    url(/img/banner2.jpg) no-repeat center center / cover;
+    background-position: right;
+    border-radius: 0px 45px 45px 0px;
+}
+.banner2{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 68px;
+    line-height: 64px;
+    color: white;
+    padding-top: 118px;
+    padding-left: 130px;
+    transition: all 0.8s ease;
+}
+.banner2:hover{
+    transition: all 0.5s ease;
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 80px;
+    color: white;
+    padding-top: 105px;
+    padding-left: 130px;
+}
+.slevakartinki1{
+    display: flex;
+    margin-top: 79px;
+    font-size: 20px;
+    line-height: 118%;
+    margin-bottom: 84px;
+}
+.text1 p{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-family: 'Muller';
+    font-size: 24px;
+    line-height: 116%;
+    letter-spacing: -0.035em;
+}
+.kart_glav1{
+    transition: all 0.8s ease;
+    width: 575px;
+    height: 441px;
+    border-radius: 45px 45px 45px 45px;
+}
+.kart_glav1:hover{
+    transition: all 0.5s ease;
+    width: 587px;
+    height: 460px;
+}
+.slevakartinki2{
+    display: flex;
+    font-size: 20px;
+    line-height: 118%;
+    margin-bottom: 36px;
+}
+.text2{
+    margin-left: 20px;
+}
+.text2 p{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-family: 'Muller';
+    font-size: 24px;
+    line-height: 110%;
+    letter-spacing: -0.035em;
+}
+.kart_glav2{
+    transition: all 0.8s ease;
+    width: 575px;
+    height: 581px;
+    border-radius: 45px 45px 45px 45px;
+}
+.kart_glav2:hover{
+    transition: all 0.5s ease;
+    width: 590px;
+    height: 600px;
+}
+.baner3{
+    margin-top: 29px;
+    display: flex;
+}
+.gradient3{
+    margin: auto;  
+    top: 0;
+    left: 0;
+    height: 364px;
+    width: 1169px;
+    background: linear-gradient(280deg, rgba(255, 255, 255, 0) 40%, #2E3092 90%),
+    url(/img/Banner3.jpeg) no-repeat center center / cover;
+    background-position: right;
+    border-radius: 0px 45px 45px 0px;
+}
+.banner3{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 64px;
+    color: white;
+    padding-top: 150px;
+    padding-left: 41px;
+    transition: all 0.8s ease;
+}
+.banner3:hover{
+    transition: all 0.5s ease;
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 70px;
+    color: white;
+    padding-top: 145px;
+    padding-left: 60px;
+}
+.slevakartinki3{
+    display: flex;
+    margin-top: 75px;
+    font-size: 20px;
+    line-height: 118%;
+    margin-bottom: 36px;
+}
+.text3 p{
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+    width: 674px;
+}
+.kart_glav3{
+    transition: all 0.8s ease;
+    margin-left: 17px;
+    width: 479px;
+    height: 311px;
+    border-radius: 45px 45px 45px 45px;
+}
+.kart_glav3:hover{
+    transition: all 0.5s ease;
+    width: 500px;
+    height: 350px;
+}
+.block2{
+    margin-top: 75px;
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+}
+.prostotext{
+    margin-top: 29px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+}
+.slevakartinki4{
+    display: flex;
+    margin-top: 75px;
+    font-size: 20px;
+    line-height: 118%;
+    margin-bottom: 36px;
+}
+.Zaglovok{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+}
+.podul{
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+}
+.preimushst{
+    margin-left: 36px;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+    list-style-type:circle;
+}
+.kart_glav4{
+    transition: all 0.8s ease;
+    margin-right: 48px;
+    width: 446px;
+    height: 475px;
+    border-radius: 45px 45px 45px 45px;
+}
+.kart_glav4:hover{
+    transition: all 0.5s ease;
+    width: 460px;
+    height: 500px;
+}
+.baner4{
+    margin-top: 29px;
+    display: flex;
+}
+.gradient4{
+    margin: auto;  
+    top: 0;
+    left: 0;
+    height: 364px;
+    width: 1169px;
+    background: linear-gradient(280deg, rgba(255, 255, 255, 0) 55%, #2E3092 90%),
+    url(/img/banner4.jpg) no-repeat center center / cover;
+    background-position: right;
+    border-radius: 0px 45px 45px 0px;
+}
+.banner4{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 64px;
+    color: white;
+    padding-top: 150px;
+    padding-left: 145px;
+    transition: all 0.8s ease;
+}
+.banner4:hover{
+    transition: all 0.5s ease;
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 75px;
+    line-height: 75px;
+    color: white;
+    padding-top: 140px;
+    padding-left: 145px;
+}
+.slevakartinki5{
+    display: flex;
+    margin-top: 75px;
+    font-size: 20px;
+    line-height: 118%;
+    margin-bottom: 36px;
+}
+.skartinkoyskeva{
+    margin-right: 43px;
+}
+.contakti {
+    display: flex;
+}
+.contakti p{
+    margin-left: 17px;
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+}
+.spisok1{
+    margin-bottom: 31px;
+}
+.spisok2{
+    margin-bottom: 31px;
+}
+.spisok1 ul{
+    padding-top: 10px;
+    list-style-type: none;
+    margin-left: 17px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+}
+.spisok2 ul{
+    padding-top: 10px;
+    list-style-type: none;
+    margin-left: 17px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+}
+.spisok3 ul{
+    padding-top: 10px;
+    list-style-type: none;
+    margin-left: 17px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    padding-bottom: 19px;
+}
+.Metka{
+    padding-top: 5px;
+    width: 35px;
+    height: 38px;
+    padding-bottom: 78px;
+}
+.Trubka{
+    width: 35px;
+    height: 39.37px;
+    padding-bottom: 58px;
+}
+.Pismo{
+    width: 34px;
+    height: 30.37px;
+}
+.ikonkivkotaktah{
+    padding-left: 20px;
+    display: flex;
+}
+.vkblack{
+    width: 50px;
+    height: 50px;
+    transition: all 0.8s ease;
+}
+.vkblack:hover{
+    transition: all 0.5s ease;
+    width: 60px;
+    height: 60px;
+    padding-left: 15px;
+}
+.odnakblack{
+    transition: all 0.8s ease;
+    padding-left: 20px;
+    width: 50px;
+    height: 50px;
+}
+.odnakblack:hover{
+    transition: all 0.5s ease;
+    width: 60px;
+    height: 60px;
+    padding-left: 15px;
+}
+.baner5{
+    margin-top: 29px;
+    display: flex;
+}
+.gradient5{
+    margin: auto;  
+    top: 0;
+    left: 0;
+    height: 364px;
+    width: 1169px;
+    background: linear-gradient(280deg, rgba(255, 255, 255, 0) 55%, #2E3092 90%),
+    url(/img/Banner3.jpeg) no-repeat center center / cover;
+    background-position: right;
+    border-radius: 0px 45px 45px 0px;
+}
+.banner5{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 64px;
+    color: white;
+    padding-top: 150px;
+    padding-left: 120px;
+    transition: all 0.8s ease;
+}
+.banner5:hover{
+    transition: all 0.5s ease;
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 75px;
+    line-height: 75px;
+    color: white;
+    padding-top: 140px;
+    padding-left: 135px;
+}
+.documenti{
+    margin-top: 55px;
+    margin-bottom: 30px;
+    display: flex;
+    height: 208px;
+}
+.sertifikat{
+    display: flex;
+    border: 2px solid #00468D;
+    border-radius: 25px;
+    margin-right: 15px;
+    width: 377px;
+    transition: all 0.8s ease;
+}
+.svidetel{
+    display: flex;
+    border: 2px solid #00468D;
+    border-radius: 25px;
+    margin-right: 14px;
+    width: 377px;
+    transition: all 0.8s ease;
+}
+.declarash{
+    display: flex;
+    border: 2px solid #00468D;
+    border-radius: 25px;
+    width: 377px;
+    transition: all 0.8s ease;
+}
+.sertifikat:hover{
+    color: #FFFFFF;
+    transition: all 0.5s ease;
+    display: flex;
+    border: 2px solid #00468D;
+    border-radius: 25px;
+    /* margin-right: 22px; */
+    width: 377px;
+    background: #00468D;
+}
+.svidetel:hover{
+    color: #FFFFFF;
+    transition: all 0.5s ease;
+    display: flex;
+    border: 2px solid #00468D;
+    border-radius: 25px;
+    /* margin-right: 17px; */
+    width: 377px;
+    background: #00468D;
+}
+.declarash:hover{
+    color: #FFFFFF;
+    transition: all 0.5s ease;
+    display: flex;
+    border: 2px solid #00468D;
+    border-radius: 25px;
+    width: 377px;
+    background: #00468D;
+}
+.document-trans{
+    width: 152px;
+    height: 152px;
+}
+.glav{
+    margin-top: 28px;
+    margin-left: 18px;
+    margin-bottom: 28px;
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+}
+.textglav{
+    margin-right: 7px;
+    margin-left: 18px;
+    margin-bottom: 54px;
+    font-family: 'Muller';
+    font-weight: 250;
+    font-size: 15px;
+    line-height: 15px;
+    width: 192px;
+    height: 78px;
+}
+.document-trans{
+    margin-top: 10px;
+    margin-right: 8px;
+    margin-bottom: 28px;
+}
+.glavsvidetel{
+    margin-top: 28px;
+    margin-left: 13px;
+    margin-bottom: 28px;
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+}
+.textglavsvidetel{
+    margin-right: 7px;
+    margin-left: 13px;
+    margin-bottom: 75px;
+    font-family: 'Muller';
+    font-weight: 250;
+    font-size: 15px;
+    line-height: 15px;
+    width: 192px;
+    height: 57px;
+}
+.document-transsvidetel{
+    margin-top: 10px;
+    margin-right: 13px;
+    margin-bottom: 28px;
+    width: 152px;
+    height: 152px;
+}
+.glavdeclarash{
+    margin-top: 28px;
+    margin-left: 9px;
+    margin-bottom: 8px;
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+}
+.textglavdeclarash{
+    margin-right: 7px;
+    margin-left: 9px;
+    margin-bottom: 54px;
+    font-family: 'Muller';
+    font-weight: 250;
+    font-size: 15px;
+    line-height: 15px;
+    width: 192px;
+    height: 78px;
+}
+.document-transdeclarash{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 28px;
+    width: 152px;
+    height: 152px;
+}
+.baner6{
+    margin-top: 29px;
+    display: flex;
+}
+.gradient6{
+    margin: auto;  
+    top: 0;
+    left: 0;
+    height: 364px;
+    width: 1169px;
+    background: linear-gradient(280deg, rgba(255, 255, 255, 0) 55%, #2E3092 90%),
+    url(/img/Сотруд1.jpeg) no-repeat center center / cover;
+    background-position: right;
+    border-radius: 0px 45px 45px 0px;
+}
+.banner6{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 64px;
+    color: white;
+    padding-top: 150px;
+    padding-left: 120px;
+    transition: all 0.8s ease;
+}
+.banner6:hover{
+    transition: all 0.5s ease;
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 75px;
+    line-height: 75px;
+    color: white;
+    padding-top: 140px;
+    padding-left: 135px;
+}
+.partners{
+    margin-top: 55px;
+    margin-bottom: 30px;
+    display: flex;
+    height: 338px;
+}
+.virashka{
+    width: 415px;
+    height: 189px;
+    margin-top: 21px;
+    margin-left: 80px;
+    margin-bottom: 28px;
+}
+.bazmasla{
+    width: 502px;
+    height: 148px;
+    margin-top: 42px;
+    margin-left: 37px;
+    margin-bottom: 60px;
+}
+.virash{
+    border: 3px solid #2E3092;
+    border-radius: 25px;
+    margin-right: 13px;
+    width: 575px;
+    transition: all 0.3s ease;
+}
+.bazovmasla{
+    border: 3px solid #2E3092;
+    border-radius: 25px;
+    width: 575px;
+    transition: all 0.3s ease;
+}
+.virash:hover{
+    transition: all 0.1s ease;
+    border-radius: 25px;
+    border: 5px solid #2E3092;
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.47);
+}
+.bazovmasla:hover{
+    transition: all 0.1s ease;
+    border-radius: 25px;
+    border: 5px solid #2E3092;
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.47);
+}
+.textvirash{
+    margin-left: 85px;
+    margin-bottom: 40px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    width: 415px;
+    height: 48px;
+}
+.textbazmasla{
+    margin-left: 154px;
+    margin-bottom: 52px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    width: 268px;
+    height: 24px;
+}
+.spisok4 ul{
+    padding-top: 10px;
+    list-style-type: none;
+    margin-left: 17px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    padding-bottom: 19px;
+}
+.Brauzer{
+    width: 35px;
+    height: 36px;
+}
+.Trubka2{
+    width: 35px;
+    height: 39.37px;
+    padding-bottom: 45px;
+}
+.baner7{
+    margin-top: 29px;
+    display: flex;
+}
+.gradient7{
+    margin: auto;  
+    top: 0;
+    left: 0;
+    height: 364px;
+    width: 1169px;
+    background: linear-gradient(280deg, rgba(255, 255, 255, 0) 70%, #2E3092 90%),
+    url(/img/product.jpg) no-repeat center center / cover;
+    background-position: right;
+    border-radius: 0px 45px 45px 0px;
+}
+.banner7{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 64px;
+    color: white;
+    padding-top: 150px;
+    padding-left: 120px;
+    transition: all 0.8s ease;
+}
+.banner7:hover{
+    transition: all 0.5s ease;
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 75px;
+    line-height: 75px;
+    color: white;
+    padding-top: 140px;
+    padding-left: 135px;
+}
+.text5{
+    padding-left: 29px;
+}
+.slevakartinki6{
+    display: flex;
+    margin-top: 75px;
+    font-size: 20px;
+    line-height: 118%;
+    margin-bottom: 47px;
+}
+.kart_glav5{
+    transition: all 0.8s ease;
+    width: 476px;
+    height: 480px;
+    border-radius: 45px 45px 45px 45px;
+}
+.kart_glav5:hover{
+    transition: all 0.5s ease;
+    width: 480px;
+    height: 500px;
+}
+.Zaglovokproduct{
+    margin-top: 22px;
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 36px;
+    padding-bottom: 37px;
+}
+.zakazproducta{
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    width: 528px;
+    height: 223.5px;
+}
+.zayvka-knopka{
+    border-radius: 47.5px;
+    border-width: 0;
+    background-color: #2E3092;
+    color: white;
+    font-size: 18px;
+    font-family: 'Muller';
+    margin-bottom: 14px;
+    padding-left: 33.75px;
+    padding-top: 25px;
+    padding-bottom:24px;
+    padding-right: 33.75px;
+    box-shadow: 0px 2px 10px #2E3092;
+    transition: all 0.8s ease;
+}
+.zayvka-knopka:hover{
+    border-radius: 47.5px;
+    border-width: 0;
+    font-size: 18px;
+    font-family: 'Muller';
+    font-weight: 500; 
+    padding-left: 33.75px;
+    padding-top: 25px;
+    padding-bottom:24px;
+    padding-right: 33.75px;
+    transition: all 0.5s ease;
+    box-shadow: 0px 2px 10px #2E3092;
+    background: white;
+    color: black;
+} 
+.zayvka-knopka1{
+    border-radius: 47.5px;
+    border-width: 0;
+    background-color: #2E3092;
+    color: white;
+    font-size: 18px;
+    font-family: 'Muller';
+    padding-left: 27px;
+    padding-top: 25px;
+    padding-bottom:24px;
+    padding-right: 26.5px;
+    box-shadow: 0px 2px 10px #2E3092;
+    transition: all 0.8s ease;
+}
+.zayvka-knopka1:hover{
+    border-radius: 47.5px;
+    border-width: 0;
+    font-size: 18px;
+    font-family: 'Muller';
+    font-weight: 500; 
+    padding-left: 27px;
+    padding-top: 25px;
+    padding-bottom:24px;
+    padding-right: 26.5px;;
+    transition: all 0.5s ease;
+    box-shadow: 0px 2px 10px #2E3092;
+    background: white;
+    color: black;
+} 
+.ostavitzayvku{
+    width: 666px;
+    height: 165.89px;
+    margin-top: 20px;
+    display: flex;
+}
+.telefon{
+    display: flex;
+    margin-left: 77px;
+    margin-top: 33px;
+    width: 377px;
+    height: 94px;
+    background: #F2F2F2;
+    border-radius: 25px;
+    position: relative;
+}
+.telefonpodyglom{
+    width: 123px;
+    position: absolute;
+    top: -38px;
+    left: 116px;
+}
+.nomer{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    margin-bottom: 16px;
+    padding-top: 17px;
+    padding-left: 28px;
+    margin-right: 11px;
+}
+.mail{
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: -0.015em;
+    padding-left: 28px;
+}
+.katalog1{
+    display: flex;
+    margin-top: 66px;
+    margin-bottom: 7px;
+}
+.katalog2{
+    display: flex;
+    margin-top: 66px;
+    margin-bottom: 72px;
+}
+.oxladi{
+    background: #FFFFFF;
+    border: 2px solid #2E3092;
+    border-radius: 25px;
+    transition: all 0.8s ease;
+    margin-right: 14px;
+    width: 377px;
+    height: 294px;
+}
+.oxladi:hover{
+    background: #FFFFFF;
+    border: 2px solid #2E3092;
+    border-radius: 25px;
+    transition: all 0.5s ease;
+    background: #2E3092;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+.oxladi:hover > .oxladitext{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 19px;
+    margin-right: 20px;
+    color: #FFFFFF;
+}
+.oxladi:hover .opisanie1{
+    margin-top: 45px;
+    color: #FFFFFF;
+    margin-left: 19px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    width: 151px;
+    height: 80px;
+}
+.oxladi:hover .cnopka-opisaniy{
+    padding-top: 23px;
+    padding-left: 36px;
+    padding-bottom: 23px;
+    padding-right: 36px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px #ffffff;
+    border-radius: 31px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+    margin-left: 108px;
+    margin-top: 24px;
+    margin-bottom: 19px;
+    border-width: 0;
+}
+.oxladitext{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 19px;
+    margin-right: 20px;
+    height: 20px;
+}
+.opisanie{
+    display: flex;
+}
+.opisanie1{
+    margin-top: 45px;
+    margin-left: 19px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    width: 151px;
+    height: 80px;
+}
+.cnopka-opisaniy{
+    padding-top: 23px;
+    padding-left: 36px;
+    padding-bottom: 23px;
+    padding-right: 36px;
+    background: #2E3092;
+    box-shadow: 0px 2px 10px #2E3092;
+    border-radius: 31px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-left: 108px;
+    margin-top: 24px;
+    margin-bottom: 19px;
+    border-width: 0;
+}
+.cartopisanie1{
+    width: 146px;
+    height: 125px;
+    margin-top: 18px;
+    margin-left: 38px;
+    margin-right: 23px;
+}
+.avtoximia{
+    background: #FFFFFF;
+    border: 2px solid #2E3092;
+    border-radius: 25px;
+    transition: all 0.8s ease;
+    margin-right: 14px;
+    width: 377px;
+    height: 294px;
+}
+.avtoximia:hover{
+    background: #FFFFFF;
+    border: 2px solid #2E3092;
+    border-radius: 25px;
+    transition: all 0.5s ease;
+    background: #2E3092;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+.avtoximia:hover > .avtoximiatext{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 19px;
+    margin-right: 20px;
+    color: #FFFFFF;
+}
+.avtoximia:hover .opisanie1avtoximia{
+    margin-top: 44px;
+    margin-left: 19px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+    width: 216px;
+    height: 67px;
+    color: #FFFFFF;
+}
+.avtoximia:hover .cnopka-opisaniy{
+    padding-top: 23px;
+    padding-left: 36px;
+    padding-bottom: 23px;
+    padding-right: 36px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px #ffffff;
+    border-radius: 31px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+    margin-left: 108px;
+    margin-top: 24px;
+    margin-bottom: 19px;
+    border-width: 0;
+}
+.avtoximiatext{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 19px;
+    margin-right: 20px;
+    height: 20px;
+}
+.opisanieavtoximia{
+    display: flex;
+}
+.opisanie1avtoximia{
+    margin-top: 44px;
+    margin-left: 19px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+    width: 216px;
+    height: 67px;
+}
+.cartopisanie1avtoximia{
+    width: 121px;
+    height: 129px;
+    margin-top: 15px;
+    margin-right: 21px;
+}
+.tormoza{
+    background: #FFFFFF;
+    border: 2px solid #2E3092;
+    border-radius: 25px;
+    transition: all 0.8s ease;
+    margin-right: 14px;
+    width: 377px;
+    height: 294px;
+}
+.tormoza:hover{
+    background: #FFFFFF;
+    border: 2px solid #2E3092;
+    border-radius: 25px;
+    transition: all 0.5s ease;
+    background: #2E3092;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+.tormoza:hover > .tormozatext{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 19px;
+    margin-right: 20px;
+    color: #FFFFFF;
+}
+.tormoza:hover .opisanie1tormoza{
+    margin-top: 63px;
+    margin-left: 25px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+    width: 198px;
+    height: 48px;
+    color: #FFFFFF;
+}
+.tormoza:hover .cnopka-opisaniytormoza{
+    padding-top: 23px;
+    padding-left: 36px;
+    padding-bottom: 23px;
+    padding-right: 36px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px #ffffff;
+    border-radius: 31px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+    margin-left: 108px;
+    margin-bottom: 19px;
+    border-width: 0;
+}
+.tormozatext{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 19px;
+    margin-right: 20px;
+    height: 20px;
+}
+.opisanietormoza{
+    display: flex;
+}
+.opisanie1tormoza{
+    margin-top: 63px;
+    margin-left: 25px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+    width: 198px;
+    height: 48px;
+}
+.cartopisanie1tormoza{
+    width: 104px;
+    height: 150px;
+    margin-top: 16px;
+    margin-right: 32px;
+    margin-left: 18px;
+}
+.cnopka-opisaniytormoza{
+    padding-top: 23px;
+    padding-left: 36px;
+    padding-bottom: 23px;
+    padding-right: 36px;
+    background: #2E3092;
+    box-shadow: 0px 2px 10px #2E3092;
+    border-radius: 31px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-left: 108px;
+    margin-bottom: 19px;
+    border-width: 0;
+}
+.steklo{
+    background: #FFFFFF;
+    border: 2px solid #2E3092;
+    border-radius: 25px;
+    transition: all 0.8s ease;
+    margin-right: 14px;
+    width: 377px;
+    height: 294px;
+}
+.steklo:hover{
+    background: #FFFFFF;
+    border: 2px solid #2E3092;
+    border-radius: 25px;
+    transition: all 0.5s ease;
+    background: #2E3092;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+.steklo:hover > .steklotext{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 19px;
+    margin-right: 20px;
+    height: 52px;
+    color: #FFFFFF;
+}
+.steklo:hover .opisanie1steklo{
+    margin-top: 41px;
+    margin-left: 19px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    width: 179px;
+    height: 63px;
+    color: #FFFFFF;
+}
+.steklo:hover .cnopka-opisaniysteklo{
+    padding-top: 23px;
+    padding-left: 36px;
+    padding-bottom: 23px;
+    padding-right: 36px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px #ffffff;
+    border-radius: 31px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+    margin-left: 108px;
+    margin-top: 24px;
+    margin-bottom: 19px;
+    border-width: 0;
+    margin-top: 10px;
+}
+.steklotext{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 19px;
+    margin-right: 20px;
+    height: 52px;
+}
+.opisaniesteklo{
+    display: flex;
+}
+.opisanie1steklo{
+    margin-top: 41px;
+    margin-left: 19px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    width: 179px;
+    height: 63px;
+}
+.cartopisanie1steklo{
+    width: 109px;
+    height: 126px;
+    margin-right: 15px;
+    margin-left: 50px;
+}
+.cnopka-opisaniysteklo{
+    padding-top: 23px;
+    padding-left: 36px;
+    padding-bottom: 23px;
+    padding-right: 36px;
+    background: #2E3092;
+    box-shadow: 0px 2px 10px #2E3092;
+    border-radius: 31px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-left: 108px;
+    margin-bottom: 19px;
+    border-width: 0;
+}
+.aus{
+    background: #FFFFFF;
+    border: 2px solid #2E3092;
+    border-radius: 25px;
+    transition: all 0.8s ease;
+    margin-right: 14px;
+    width: 377px;
+    height: 294px;
+}
+.aus:hover{
+    background: #FFFFFF;
+    border: 2px solid #2E3092;
+    border-radius: 25px;
+    transition: all 0.5s ease;
+    background: #2E3092;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+.aus:hover > .textaus{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 19px;
+    margin-right: 20px;
+    height: 52px;
+    color: #FFFFFF;
+}
+.aus:hover .opisanie1aus{
+    margin-top: 21px;
+    margin-left: 36px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    width: 200px;
+    height: 80px;
+    color: #FFFFFF;
+}
+.aus:hover .cnopka-opisaniyaus{
+    padding-top: 23px;
+    padding-left: 36px;
+    padding-bottom: 23px;
+    padding-right: 36px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px #ffffff;
+    border-radius: 31px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+    margin-left: 108px;
+    margin-top: 24px;
+    margin-bottom: 19px;
+    border-width: 0;
+    margin-top: 10px;
+}
+.textaus{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 19px;
+    margin-right: 20px;
+    height: 52px;
+}
+.opisanieaus{
+    display: flex;
+}
+.opisanie1aus{
+    margin-top: 21px;
+    margin-left: 36px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    width: 200px;
+    height: 80px;
+}
+.cartopisanie1aus{
+    width: 110px;
+    height: 126px;
+    margin-right: 22px;
+    margin-left: 6px;
+}
+.cnopka-opisaniyaus{
+    padding-top: 23px;
+    padding-left: 36px;
+    padding-bottom: 23px;
+    padding-right: 36px;
+    background: #2E3092;
+    box-shadow: 0px 2px 10px #2E3092;
+    border-radius: 31px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-left: 108px;
+    margin-bottom: 19px;
+    border-width: 0;
+}
+.prochee{
+    background: #FFFFFF;
+    border: 2px solid #2E3092;
+    border-radius: 25px;
+    transition: all 0.8s ease;
+    width: 377px;
+    height: 294px;
+}
+.prochee:hover{
+    background: #FFFFFF;
+    border: 2px solid #2E3092;
+    border-radius: 25px;
+    transition: all 0.5s ease;
+    background: #2E3092;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+.prochee:hover > .textprochee{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 19px;
+    margin-right: 20px;
+    height: 21px;
+    color: #FFFFFF;
+}
+.prochee:hover .opisanie1prochee{
+    margin-top: 52px;
+    margin-left: 36px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    width: 208px;
+    height: 83px;
+    color: #FFFFFF;
+}
+.prochee:hover .cnopka-opisaniyprochee{
+    padding-top: 23px;
+    padding-left: 36px;
+    padding-bottom: 23px;
+    padding-right: 36px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px #ffffff;
+    border-radius: 31px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+    margin-left: 108px;
+    margin-top: 4px;
+    margin-bottom: 19px;
+    border-width: 0;
+}
+.textprochee{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 19px;
+    margin-right: 20px;
+    height: 21px;
+}
+.opisanieprochee{
+    display: flex;
+}
+.opisanie1prochee{
+    margin-top: 52px;
+    margin-left: 36px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    width: 208px;
+    height: 83px;
+}
+.cartopisanie1prochee{
+    width: 83px;
+    height: 139px;
+    margin-right: 34px;
+    margin-left: 29px;
+    margin-top: 24px;
+}
+.cnopka-opisaniyprochee{
+    padding-top: 23px;
+    padding-left: 36px;
+    padding-bottom: 23px;
+    padding-right: 36px;
+    background: #2E3092;
+    box-shadow: 0px 2px 10px #2E3092;
+    border-radius: 31px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-top: 4px;
+    margin-left: 108px;
+    margin-bottom: 19px;
+    border-width: 0;
+}
+.model{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    z-index: -1;
+    opacity: 0;
+    transition: all .09s ease-out;
+}
+.model.show{
+    visibility: visible;
+    z-index: 100;
+    opacity: 1;
+}
+.model .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.7;
+    z-index: 0;
+}
+.model-window{
+    position: relative;
+    z-index: 2;
+    width: 550px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba( 0, 0, 0, .4);
+    background-color: rgb(204, 204, 204);
+    padding: 30px;
+    margin-top: -40px;
+    transition: inherit;
+}
+.model.show .model-window{
+    margin-top: 0;
+}
+.btn-close{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border: none;
+    background: none;
+    opacity: 0.7;
+}
+.btn-close:hover{
+    opacity: 1;
+}
+.model h1{
+    color: black;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.model p{
+    font-size: 15px;
+    color: black;
+}
+.Antifriz{
+    background: #FFFFFF;
+    border: 2px solid #2E3092;
+    border-radius: 25px;
+    transition: all 0.8s ease;
+    margin-right: 16px;
+    height: 294px;
+}
+.Antifriz:hover{
+    background: #FFFFFF;
+    border: 2px solid #2E3092;
+    border-radius: 25px;
+    transition: all 0.5s ease;
+    background: #2E3092;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+.Antifriz:hover > .textAntifriz{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 19px;
+    margin-right: 20px;
+    height: 21px;
+    color: #FFFFFF;
+}
+.Antifriz:hover .opisanie1Antifriz{
+    margin-top: 52px;
+    margin-left: 36px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 108%;
+    letter-spacing: -0.035em;
+    width: 150px;
+    height: 87px;
+    color: #FFFFFF;
+}
+.Antifriz:hover .cnopka-opisaniyAntifriz{
+    padding-top: 23px;
+    padding-left: 36px;
+    padding-bottom: 23px;
+    padding-right: 36px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px #ffffff;
+    border-radius: 31px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+    margin-left: 108px;
+    margin-bottom: 19px;
+    border-width: 0;
+}
+.textAntifriz{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 19px;
+    margin-right: 20px;
+    height: 21px;
+}
+.opisanieAntifriz{
+    display: flex;
+    width: 377px;
+}
+.opisanie1Antifriz{
+    margin-top: 52px;
+    margin-left: 36px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 108%;
+    letter-spacing: -0.035em;
+    width: 150px;
+    height: 87px;
+}
+.cartopisanie1Antifriz{
+    width: 170px;
+    height: 110px;
+    margin-left: 15px;
+    margin-top: 45px;
+}
+.cnopka-opisaniyAntifriz{
+    padding-top: 23px;
+    padding-left: 36px;
+    padding-bottom: 23px;
+    padding-right: 36px;
+    background: #2E3092;
+    box-shadow: 0px 2px 10px #2E3092;
+    border-radius: 31px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-top: 12px;
+    margin-left: 108px;
+    margin-bottom: 19px;
+    border-width: 0;
+}
+.tosol{
+    background: #FFFFFF;
+    border: 2px solid #2E3092;
+    border-radius: 25px;
+    transition: all 0.8s ease;
+    margin-right: 16px;
+    height: 294px;
+}
+.tosol:hover{
+    background: #FFFFFF;
+    border: 2px solid #2E3092;
+    border-radius: 25px;
+    transition: all 0.5s ease;
+    background: #2E3092;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+.tosol:hover > .texttosol{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 19px;
+    margin-right: 20px;
+    height: 21px;
+    color: #FFFFFF;
+}
+.tosol:hover .opisanie1tosol{
+    margin-top: 52px;
+    margin-left: 26px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 28px;
+    width: 161px;
+    height: 50px;
+    color: #FFFFFF;
+}
+.tosol:hover .cnopka-opisaniytosol{
+    padding-top: 23px;
+    padding-left: 36px;
+    padding-bottom: 23px;
+    padding-right: 36px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px #ffffff;
+    border-radius: 31px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+    margin-top: 28px;
+    margin-left: 108px;
+    margin-bottom: 19px;
+    border-width: 0;
+}
+.texttosol{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 19px;
+    margin-right: 20px;
+    height: 21px;
+}
+.opisanietosol{
+    display: flex;
+    width: 377px;
+}
+.opisanie1tosol{
+    margin-top: 52px;
+    margin-left: 26px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 28px;
+    width: 161px;
+    height: 50px;
+}
+.cartopisanie1tosol{
+    width: 120px;
+    height: 110px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.cnopka-opisaniytosol{
+    padding-top: 23px;
+    padding-left: 36px;
+    padding-bottom: 23px;
+    padding-right: 36px;
+    background: #2E3092;
+    box-shadow: 0px 2px 10px #2E3092;
+    border-radius: 31px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-top: 26px;
+    margin-left: 108px;
+    margin-bottom: 19px;
+    border-width: 0;
+}
+.teplonos{
+    background: #FFFFFF;
+    border: 2px solid #2E3092;
+    border-radius: 25px;
+    transition: all 0.8s ease;
+    margin-right: 14px;
+    width: 377px;
+    height: 294px;
+}
+.teplonos:hover{
+    background: #FFFFFF;
+    border: 2px solid #2E3092;
+    border-radius: 25px;
+    transition: all 0.5s ease;
+    background: #2E3092;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+.teplonos:hover > .textteplonos{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 19px;
+    margin-right: 20px;
+    height: 21px;
+    color: #FFFFFF;
+}
+.teplonos:hover .opisanie1teplonos{
+    margin-top: 63px;
+    margin-left: 26px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    width: 198px;
+    height: 40px;
+    color: #FFFFFF;
+}
+.teplonos:hover .cnopka-opisaniyteplonos{
+    padding-top: 23px;
+    padding-left: 36px;
+    padding-bottom: 23px;
+    padding-right: 36px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px #ffffff;
+    border-radius: 31px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+    margin-top: 16px;
+    margin-left: 108px;
+    margin-bottom: 19px;
+    border-width: 0;
+}
+.textteplonos{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 19px;
+    margin-right: 20px;
+    height: 21px;
+}
+.opisanieteplonos{
+    display: flex;
+}
+.opisanie1teplonos{
+    margin-top: 63px;
+    margin-left: 26px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    width: 198px;
+    height: 40px;
+}
+.cartopisanie1teplonos{
+    width: 120px;
+    height: 130px;
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.cnopka-opisaniyteplonos{
+    padding-top: 23px;
+    padding-left: 36px;
+    padding-bottom: 23px;
+    padding-right: 36px;
+    background: #2E3092;
+    box-shadow: 0px 2px 10px #2E3092;
+    border-radius: 31px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-left: 108px;
+    margin-bottom: 19px;
+    border-width: 0;
+}
+.Konchetrat{
+    background: #FFFFFF;
+    border: 2px solid #2E3092;
+    border-radius: 25px;
+    transition: all 0.8s ease;
+    margin-right: 14px;
+    width: 377px;
+    height: 294px;
+}
+.Konchetrat:hover{
+    background: #FFFFFF;
+    border: 2px solid #2E3092;
+    border-radius: 25px;
+    transition: all 0.5s ease;
+    background: #2E3092;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+.Konchetrat:hover > .textKonchetrat{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 19px;
+    margin-right: 20px;
+    height: 21px;
+    color: #FFFFFF;
+}
+.Konchetrat:hover .opisanie1Konchetrat{
+    margin-top: 63px;
+    margin-left: 26px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    width: 198px;
+    height: 40px;
+    color: #FFFFFF;
+}
+.Konchetrat:hover .cnopka-opisaniyKonchetrat{
+    padding-top: 23px;
+    padding-left: 36px;
+    padding-bottom: 23px;
+    padding-right: 36px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px #ffffff;
+    border-radius: 31px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+    margin-top: 16px;
+    margin-left: 108px;
+    margin-bottom: 19px;
+    border-width: 0;
+}
+.textKonchetrat{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 19px;
+    margin-right: 20px;
+    height: 21px;
+}
+.opisanieKonchetrat{
+    display: flex;
+}
+.opisanie1Konchetrat{
+    margin-top: 63px;
+    margin-left: 26px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    width: 198px;
+    height: 40px;
+}
+.cartopisanie1Konchetrat{
+    width: 120px;
+    height: 130px;
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.cnopka-opisaniyKonchetrat{
+    padding-top: 23px;
+    padding-left: 36px;
+    padding-bottom: 23px;
+    padding-right: 36px;
+    background: #2E3092;
+    box-shadow: 0px 2px 10px #2E3092;
+    border-radius: 31px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-left: 108px;
+    margin-bottom: 19px;
+    border-width: 0;
+}
+.baner8{
+    margin-top: 29px;
+    display: flex;
+}
+.gradient8{
+    margin: auto;  
+    top: 0;
+    left: 0;
+    height: 364px;
+    width: 1169px;
+    background: linear-gradient(280deg, rgba(255, 255, 255, 0) 70%, #2E3092 90%),
+    url(/img/product.jpg) no-repeat center center / cover;
+    background-position: right;
+    border-radius: 0px 45px 45px 0px;
+}
+.banner8{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    color: white;
+    padding-top: 120px;
+    padding-left: 49px;
+    transition: all 0.8s ease;
+}
+.banner8:hover{
+    transition: all 0.5s ease;
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 67px;
+    line-height: 67px;
+    text-align: center;
+    color: white;
+    padding-top: 125px;
+    padding-left: 65px;
+}
+.baner9{
+    margin-top: 29px;
+    display: flex;
+}
+.gradient9{
+    margin: auto;  
+    top: 0;
+    left: 0;
+    height: 364px;
+    width: 1169px;
+    background: linear-gradient(280deg, rgba(255, 255, 255, 0) 70%, #2E3092 90%),
+    url(/img/product.jpg) no-repeat center center / cover;
+    background-position: right;
+    border-radius: 0px 45px 45px 0px;
+}
+.banner9{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 75px;
+    line-height: 75px;
+    text-align: center;
+    color: white;
+    padding-top: 145px;
+    padding-left: 50px;
+    transition: all 0.8s ease;
+}
+.banner9:hover{
+    transition: all 0.5s ease;
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: white;
+    padding-top: 155px;
+    padding-left: 60px;
+}
+.Antifriz1{
+    background: #FFFFFF;
+    border: 2px solid #2E3092;
+    border-radius: 25px;
+    transition: all 0.8s ease;
+    margin-right: 16px;
+    height: 294px;
+}
+.Antifriz1:hover{
+    background: #FFFFFF;
+    border: 2px solid #2E3092;
+    border-radius: 25px;
+    transition: all 0.5s ease;
+    background: #2E3092;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+.Antifriz1:hover > .textAntifriz1{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 19px;
+    margin-right: 20px;
+    height: 21px;
+    color: #FFFFFF;
+}
+.Antifriz1:hover .opisanie1Antifriz1{
+    margin-top: 70px;
+    margin-left: 36px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 108%;
+    letter-spacing: -0.035em;
+    width: 150px;
+    height: 87px;
+    color: #FFFFFF;
+}
+.Antifriz1:hover .cnopka-opisaniyAntifriz1{
+    padding-top: 23px;
+    padding-left: 36px;
+    padding-bottom: 23px;
+    padding-right: 36px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px #ffffff;
+    border-radius: 31px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+    margin-left: 108px;
+    margin-bottom: 19px;
+    border-width: 0;
+}
+.textAntifriz1{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 19px;
+    margin-right: 20px;
+    height: 21px;
+}
+.opisanieAntifriz1{
+    display: flex;
+    width: 377px;
+}
+.opisanie1Antifriz1{
+    margin-top: 70px;
+    margin-left: 36px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 108%;
+    letter-spacing: -0.035em;
+    width: 150px;
+    height: 87px;
+}
+.cartopisanie1Antifriz1{
+    width: 130px;
+    height: 110px;
+    margin-left: 50px;
+    margin-top: 35px;
+}
+.cnopka-opisaniyAntifriz1{
+    padding-top: 23px;
+    padding-left: 36px;
+    padding-bottom: 23px;
+    padding-right: 36px;
+    background: #2E3092;
+    box-shadow: 0px 2px 10px #2E3092;
+    border-radius: 31px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-top: 12px;
+    margin-left: 108px;
+    margin-bottom: 19px;
+    border-width: 0;
+}
+.g11{
+    background: #FFFFFF;
+    border: 2px solid #2E3092;
+    border-radius: 25px;
+    transition: all 0.8s ease;
+    margin-right: 16px;
+    height: 294px;
+}
+.g11:hover{
+    background: #FFFFFF;
+    border: 2px solid #2E3092;
+    border-radius: 25px;
+    transition: all 0.5s ease;
+    background: #2E3092;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+.g11:hover > .textg11{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 19px;
+    margin-right: 20px;
+    height: 21px;
+    color: #FFFFFF;
+}
+.g11:hover .opisanie1g11{
+    margin-top: 50px;
+    margin-left: 36px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 108%;
+    letter-spacing: -0.035em;
+    width: 150px;
+    height: 87px;
+    color: #FFFFFF;
+}
+.g11:hover .cnopka-opisaniyg11{
+    padding-top: 23px;
+    padding-left: 36px;
+    padding-bottom: 23px;
+    padding-right: 36px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px #ffffff;
+    border-radius: 31px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+    margin-left: 108px;
+    margin-bottom: 19px;
+    border-width: 0;
+}
+.textg11{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 19px;
+    margin-right: 20px;
+    height: 21px;
+}
+.opisanieg11{
+    display: flex;
+    width: 377px;
+}
+.opisanie1g11{
+    margin-top: 50px;
+    margin-left: 36px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 108%;
+    letter-spacing: -0.035em;
+    width: 150px;
+    height: 87px;
+}
+.cartopisanie1g11{
+    width: 130px;
+    height: 110px;
+    margin-left: 50px;
+    margin-top: 35px;
+}
+.cnopka-opisaniyg11{
+    padding-top: 23px;
+    padding-left: 36px;
+    padding-bottom: 23px;
+    padding-right: 36px;
+    background: #2E3092;
+    box-shadow: 0px 2px 10px #2E3092;
+    border-radius: 31px;
+    border-width: 0px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-top: 12px;
+    margin-left: 108px;
+    margin-bottom: 19px;
+}
+.opisanieproducta{
+    margin-top: 35px;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 70px;
+    border-radius: 31px;
+    box-shadow: 0px 0px 7px  #2E3092;
+}
+.opisanieproducta h2{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+}
+.kartinkatext{
+    display: flex;
+}
+.g11zelen{
+    width: 488px;
+    height: 469px;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.g11opis{
+    margin-right: 10px;
+    margin-left: 80px;
+    margin-top: 40px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+.g11opis p{
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 300;
+}
+.tosolik{
+    width: 488px;
+    height: 469px;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+.tosolikopis{
+    margin-right: 10px;
+    margin-left: 80px;
+    margin-top: 40px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+.tosolikopis p{
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 300;
+}
+.Teplonos{
+    background: #FFFFFF;
+    border: 2px solid #2E3092;
+    border-radius: 25px;
+    transition: all 0.8s ease;
+    margin-right: 16px;
+    height: 294px;
+}
+.Teplonos:hover{
+    background: #FFFFFF;
+    border: 2px solid #2E3092;
+    border-radius: 25px;
+    transition: all 0.5s ease;
+    background: #2E3092;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+.Teplonos:hover > .textTeplonos{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 19px;
+    margin-right: 20px;
+    height: 21px;
+    color: #FFFFFF;
+}
+.Teplonos:hover .opisanie1Teplonos{
+    margin-top: 60px;
+    margin-left: 36px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 108%;
+    letter-spacing: -0.035em;
+    width: 150px;
+    height: 87px;
+    color: #FFFFFF;
+}
+.Teplonos:hover .cnopka-opisaniyTeplonos{
+    padding-top: 23px;
+    padding-left: 36px;
+    padding-bottom: 23px;
+    padding-right: 36px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px #ffffff;
+    border-radius: 31px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+    margin-left: 108px;
+    margin-bottom: 19px;
+    border-width: 0;
+}
+.textTeplonos{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 19px;
+    margin-right: 20px;
+    height: 21px;
+}
+.opisanieTeplonos{
+    display: flex;
+    width: 377px;
+}
+.opisanie1Teplonos{
+    margin-top: 60px;
+    margin-left: 36px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 108%;
+    letter-spacing: -0.035em;
+    width: 150px;
+    height: 87px;
+}
+.cartopisanie1Teplonos{
+    width: 110px;
+    height: 110px;
+    margin-left: 60px;
+    margin-right: 15px;
+    margin-top: 35px;
+}
+.cnopka-opisaniyTeplonos{
+    padding-top: 23px;
+    padding-left: 36px;
+    padding-bottom: 23px;
+    padding-right: 36px;
+    background: #2E3092;
+    box-shadow: 0px 2px 10px #2E3092;
+    border-radius: 31px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-top: 12px;
+    margin-left: 108px;
+    margin-bottom: 19px;
+    border-width: 0;
+}
+.table2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.teplonosred{
+    width: 500px;
+    height: 580px;
+    margin-top: 120px;
+    margin-left: 30px;
+}
+.teplonosredopis{
+    margin-right: 10px;
+    margin-left: 80px;
+    margin-top: 40px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+.teplonosredopis p{
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 300;
+}
+.avtoshampun{
+    background: #FFFFFF;
+    border: 2px solid #2E3092;
+    border-radius: 25px;
+    transition: all 0.8s ease;
+    margin-right: 16px;
+    height: 294px;
+}
+.avtoshampun:hover{
+    background: #FFFFFF;
+    border: 2px solid #2E3092;
+    border-radius: 25px;
+    transition: all 0.5s ease;
+    background: #2E3092;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+.avtoshampun:hover > .textavtoshampun{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 19px;
+    margin-right: 20px;
+    height: 21px;
+    color: #FFFFFF;
+}
+.avtoshampun:hover .opisanie1avtoshampun{
+    margin-top: 60px;
+    margin-left: 36px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 108%;
+    letter-spacing: -0.035em;
+    width: 180px;
+    height: 40px;
+    color: #FFFFFF;
+}
+.avtoshampun:hover .cnopka-opisaniyavtoshampun{
+    padding-top: 23px;
+    padding-left: 36px;
+    padding-bottom: 23px;
+    padding-right: 36px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px #ffffff;
+    border-radius: 31px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+    margin-left: 108px;
+    margin-bottom: 19px;
+    border-width: 0;
+}
+.textavtoshampun{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 19px;
+    margin-right: 20px;
+    height: 21px;
+}
+.opisanieavtoshampun{
+    display: flex;
+    width: 377px;
+}
+.opisanie1avtoshampun{
+    margin-top: 60px;
+    margin-left: 36px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 108%;
+    letter-spacing: -0.035em;
+    width: 180px;
+    height: 40px;
+}
+.cartopisanie1avtoshampun{
+    width: 90px;
+    height: 110px;
+    margin-left: 40px;
+    margin-right: 15px;
+    margin-top: 35px;
+}
+.cnopka-opisaniyavtoshampun{
+    padding-top: 23px;
+    padding-left: 36px;
+    padding-bottom: 23px;
+    padding-right: 36px;
+    background: #2E3092;
+    box-shadow: 0px 2px 10px #2E3092;
+    border-radius: 31px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-top: 12px;
+    margin-left: 108px;
+    margin-bottom: 19px;
+    border-width: 0;
+}
+.svoystvaavtoshampun{
+    margin-left: 20px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    list-style-type:circle;
+}
+.avtoshampunik{
+    width: 500px;
+    height: 700px;
+    margin-top: 150px;
+    margin-left: 25px;
+}
+.avtoshampunikopis{
+    margin-right: 10px;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+.avtoshampunikopis p{
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 300;
+}
+.avtoshampunikblue{
+    width: 500px;
+    height: 700px;
+    margin-top: 90px;
+    margin-left: 25px;
+}
+.tormozay{
+    width: 350px;
+    height: 700px;
+    margin-top: 70px;
+    margin-left: 25px;
+}
+.tormozayopis{
+    margin-right: 10px;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+.tormozayopis p{
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 300;
+}
+.knopka-sertifikat{
+    margin-top: 20px;
+    margin-left: 100px;
+    border-radius: 47.5px;
+    border-width: 0;
+    background-color: #2E3092;
+    color: white;
+    font-size: 25px;
+    font-family: 'Muller';
+    padding-left: 35px;
+    padding-top: 35px;
+    padding-bottom:33px;
+    padding-right: 35px;
+    box-shadow: 0px 2px 10px #2E3092;
+    transition: all 0.8s ease;
+}
+.knopka-sertifikat:hover{
+    margin-top: 20px;
+    margin-left: 100px;
+    border-radius: 47.5px;
+    border-width: 0;
+    font-size: 25px;
+    font-family: 'Muller';
+    font-weight: 500; 
+    padding-left: 35px;
+    padding-top: 35px;
+    padding-bottom:33px;
+    padding-right: 35px;
+    transition: all 0.5s ease;
+    box-shadow: 0px 2px 10px #2E3092;
+    background: white;
+    color: black;
+} 
+.Omivaika{
+    background: #FFFFFF;
+    border: 2px solid #2E3092;
+    border-radius: 25px;
+    transition: all 0.8s ease;
+    margin-right: 16px;
+    height: 294px;
+}
+.Omivaika:hover{
+    background: #FFFFFF;
+    border: 2px solid #2E3092;
+    border-radius: 25px;
+    transition: all 0.5s ease;
+    background: #2E3092;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+.Omivaika:hover > .textOmivaika{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 19px;
+    margin-right: 20px;
+    height: 21px;
+    color: #FFFFFF;
+}
+.Omivaika:hover .opisanie1Omivaika{
+    margin-top: 50px;
+    margin-left: 36px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 108%;
+    letter-spacing: -0.035em;
+    width: 180px;
+    height: 80px;
+    color: #FFFFFF;
+}
+.Omivaika:hover .cnopka-opisaniyOmivaika{
+    padding-top: 23px;
+    padding-left: 36px;
+    padding-bottom: 23px;
+    padding-right: 36px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px #ffffff;
+    border-radius: 31px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+    margin-top: 20px;
+    margin-left: 108px;
+    margin-bottom: 19px;
+    border-width: 0;
+}
+.textOmivaika{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 19px;
+    margin-right: 20px;
+    height: 21px;
+}
+.opisanieOmivaika{
+    display: flex;
+    width: 377px;
+}
+.opisanie1Omivaika{
+    margin-top: 50px;
+    margin-left: 36px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 108%;
+    letter-spacing: -0.035em;
+    width: 180px;
+    height: 80px;
+}
+.cartopisanie1Omivaika{
+    width: 75px;
+    height: 110px;
+    margin-left: 60px;
+    margin-right: 15px;
+    margin-top: 35px;
+}
+.cnopka-opisaniyOmivaika{
+    padding-top: 23px;
+    padding-left: 36px;
+    padding-bottom: 23px;
+    padding-right: 36px;
+    background: #2E3092;
+    box-shadow: 0px 2px 10px #2E3092;
+    border-radius: 31px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 108px;
+    margin-bottom: 19px;
+    border-width: 0;
+}
+.Omivaika1{
+    background: #FFFFFF;
+    border: 2px solid #2E3092;
+    border-radius: 25px;
+    transition: all 0.8s ease;
+    margin-right: 16px;
+    height: 294px;
+}
+.Omivaika1:hover{
+    background: #FFFFFF;
+    border: 2px solid #2E3092;
+    border-radius: 25px;
+    transition: all 0.5s ease;
+    background: #2E3092;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+.Omivaika1:hover > .textOmivaika1{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 19px;
+    margin-right: 20px;
+    height: 21px;
+    color: #FFFFFF;
+}
+.Omivaika1:hover .opisanie1Omivaika1{
+    margin-top: 50px;
+    margin-left: 36px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 108%;
+    letter-spacing: -0.035em;
+    width: 180px;
+    height: 80px;
+    color: #FFFFFF;
+}
+.Omivaika1:hover .cnopka-opisaniyOmivaika1{
+    padding-top: 23px;
+    padding-left: 36px;
+    padding-bottom: 23px;
+    padding-right: 36px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px #ffffff;
+    border-radius: 31px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+    margin-top: 20px;
+    margin-left: 108px;
+    margin-bottom: 19px;
+    border-width: 0;
+}
+.textOmivaika1{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 19px;
+    margin-right: 20px;
+    height: 21px;
+    width: 338px;
+}
+.opisanieOmivaika1{
+    display: flex;
+}
+.opisanie1Omivaika1{
+    margin-top: 50px;
+    margin-left: 36px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 108%;
+    letter-spacing: -0.035em;
+    width: 180px;
+    height: 80px;
+}
+.cartopisanie1Omivaika1{
+    width: 75px;
+    height: 110px;
+    margin-left: 60px;
+    margin-right: 15px;
+    margin-top: 35px;
+}
+.cnopka-opisaniyOmivaika1{
+    padding-top: 23px;
+    padding-left: 36px;
+    padding-bottom: 23px;
+    padding-right: 36px;
+    background: #2E3092;
+    box-shadow: 0px 2px 10px #2E3092;
+    border-radius: 31px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 108px;
+    margin-bottom: 19px;
+    border-width: 0;
+}
+.omivaichka{
+    width: 400px;
+    height: 700px;
+    margin-top: 70px;
+    margin-left: 25px;
+}
+.omivaichkaopis{
+    margin-right: 10px;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+.omivaichkaopis p{
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 300;
+}
+.aus-32{
+    width: 400px;
+    height: 469px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.aus-32opis{
+    margin-right: 10px;
+    margin-left: 80px;
+    margin-top: 40px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+.aus-32opis p{
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 300;
+}
+.Meg{
+    background: #FFFFFF;
+    border: 2px solid #2E3092;
+    border-radius: 25px;
+    transition: all 0.8s ease;
+    margin-right: 16px;
+    height: 294px;
+}
+.Meg:hover{
+    background: #FFFFFF;
+    border: 2px solid #2E3092;
+    border-radius: 25px;
+    transition: all 0.5s ease;
+    background: #2E3092;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+.Meg:hover > .textMeg{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 19px;
+    margin-right: 20px;
+    height: 21px;
+    color: #FFFFFF;
+}
+.Meg:hover .opisanie1Meg{
+    margin-top: 55px;
+    margin-left: 36px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 108%;
+    letter-spacing: -0.035em;
+    width: 180px;
+    height: 80px;
+    color: #FFFFFF;
+}
+.Meg:hover .cnopka-opisaniyMeg{
+    padding-top: 23px;
+    padding-left: 36px;
+    padding-bottom: 23px;
+    padding-right: 36px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px #ffffff;
+    border-radius: 31px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+    margin-top: 20px;
+    margin-left: 108px;
+    margin-bottom: 19px;
+    border-width: 0;
+}
+.textMeg{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 19px;
+    margin-right: 20px;
+    height: 21px;
+    width: 338px;
+}
+.opisanieMeg{
+    display: flex;
+    width: 377px;
+}
+.opisanie1Meg{
+    margin-top: 55px;
+    margin-left: 36px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 108%;
+    letter-spacing: -0.035em;
+    width: 180px;
+    height: 80px;
+}
+.cartopisanie1Meg{
+    width: 75px;
+    height: 110px;
+    margin-left: 60px;
+    margin-right: 30px;
+    margin-top: 35px;
+}
+.cnopka-opisaniyMeg{
+    padding-top: 23px;
+    padding-left: 36px;
+    padding-bottom: 23px;
+    padding-right: 36px;
+    background: #2E3092;
+    box-shadow: 0px 2px 10px #2E3092;
+    border-radius: 31px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 108px;
+    margin-bottom: 19px;
+    border-width: 0;
+}
+.Meg1{
+    background: #FFFFFF;
+    border: 2px solid #2E3092;
+    border-radius: 25px;
+    transition: all 0.8s ease;
+    margin-right: 16px;
+    height: 294px;
+}
+.Meg1:hover{
+    background: #FFFFFF;
+    border: 2px solid #2E3092;
+    border-radius: 25px;
+    transition: all 0.5s ease;
+    background: #2E3092;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+.Meg1:hover > .textMeg1{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 40px;
+    height: 21px;
+    width: 300px;
+    color: #FFFFFF;
+}
+.Meg1:hover .opisanie1Meg1{
+    margin-top: 55px;
+    margin-left: 36px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 108%;
+    letter-spacing: -0.035em;
+    width: 180px;
+    height: 80px;
+    color: #FFFFFF;
+}
+.Meg1:hover .cnopka-opisaniyMeg1{
+    padding-top: 23px;
+    padding-left: 36px;
+    padding-bottom: 23px;
+    padding-right: 36px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px #ffffff;
+    border-radius: 31px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+    margin-top: 20px;
+    margin-left: 108px;
+    margin-bottom: 19px;
+    border-width: 0;
+}
+.textMeg1{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 40px;
+    height: 21px;
+    width: 300px;
+}
+.opisanieMeg1{
+    display: flex;
+    width: 377px;
+}
+.opisanie1Meg1{
+    margin-top: 55px;
+    margin-left: 36px;
+    font-family: 'Muller';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 108%;
+    letter-spacing: -0.035em;
+    width: 180px;
+    height: 80px;
+}
+.cartopisanie1Meg1{
+    width: 90px;
+    height: 110px;
+    margin-left: 60px;
+    margin-right: 15px;
+    margin-top: 35px;
+}
+.cnopka-opisaniyMeg1{
+    padding-top: 23px;
+    padding-left: 36px;
+    padding-bottom: 23px;
+    padding-right: 36px;
+    background: #2E3092;
+    box-shadow: 0px 2px 10px #2E3092;
+    border-radius: 31px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 108px;
+    margin-bottom: 19px;
+    border-width: 0;
+}
+.baner10{
+    margin-top: 29px;
+    display: flex;
+}
+.gradient10{
+    margin: auto;  
+    top: 0;
+    left: 0;
+    height: 364px;
+    width: 1169px;
+    background: linear-gradient(280deg, rgba(255, 255, 255, 0) 70%, #2E3092 90%),
+    url(/img/product.jpg) no-repeat center center / cover;
+    background-position: right;
+    border-radius: 0px 45px 45px 0px;
+}
+.banner10{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 52px;
+    text-align: center;
+    color: white;
+    padding-top: 125px;
+    padding-left: 49px;
+    transition: all 0.8s ease;
+}
+.banner10:hover{
+    transition: all 0.5s ease;
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 55px;
+    text-align: center;
+    color: white;
+    padding-top: 128px;
+    padding-left: 49px;
+}
+.baner11{
+    margin-top: 29px;
+    display: flex;
+}
+.gradient11{
+    margin: auto;  
+    top: 0;
+    left: 0;
+    height: 364px;
+    width: 1169px;
+    background: linear-gradient(280deg, rgba(255, 255, 255, 0) 70%, #2E3092 90%),
+    url(/img/product.jpg) no-repeat center center / cover;
+    background-position: right;
+    border-radius: 0px 45px 45px 0px;
+}
+.banner11{
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 52px;
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+    padding-left: 49px;
+    transition: all 0.8s ease;
+}
+.banner11:hover{
+    transition: all 0.5s ease;
+    font-family: 'Muller';
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 55px;
+    text-align: center;
+    color: white;
+    padding-top: 160px;
+    padding-left: 49px;
+}
+.bochka{
+    width: 400px;
+    height: 600px;
+    margin-top: 70px;
+    margin-left: 25px;
+}
+.bochkaopis{
+    margin-right: 10px;
+    margin-left: 100px;
+    margin-top: 70px;
+    font-family: 'Muller';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+.bochkaopis p{
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 300;
+}
