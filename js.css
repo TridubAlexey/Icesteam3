@@ -1,0 +1,892 @@
+#myImg{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#myImg:hover{opacity: 0.7;}
+.modal{
+    display: none;
+    position: fixed; /* Оставаться на месте */
+    z-index: 1; /* Сидеть на вершине */
+    padding-top: 100px; /* Расположение коробки */
+    left: 0;
+    top: 0;
+    width: 100%; /* Полная ширина */
+    height: 100%; /* Полный высота */
+    overflow: auto; /* Включите прокрутку, если это необходимо */
+    background-color: rgb(0,0,0); /* Цвет запасной вариант */
+    background-color: rgba(0,0,0,0.9); /* Черный с непрозрачностью */
+}
+/* Модальное содержание (изображение) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Заголовок модального изображения ( текст изображения) - та же ширина, что и изображение */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Добавить анимацию - величение модели */
+  .modal-content, #caption {
+    -webkit-animation-name:zoom;
+    -webkit-animation-duration:0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  @-webkit-keyframes zoom{
+    from{-webkit-transform: scale(0);}
+    to{-webkit-transform: scale(1);}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  /* Кнопка закрытия */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Ширина изображения на меньших экранах */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+  #myImg1{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#myImg1:hover{opacity: 0.7;}
+.modal1{
+    display: none;
+    position: fixed; /* Оставаться на месте */
+    z-index: 1; /* Сидеть на вершине */
+    padding-top: 100px; /* Расположение коробки */
+    left: 0;
+    top: 0;
+    width: 100%; /* Полная ширина */
+    height: 100%; /* Полный высота */
+    overflow: auto; /* Включите прокрутку, если это необходимо */
+    background-color: rgb(0,0,0); /* Цвет запасной вариант */
+    background-color: rgba(0,0,0,0.9); /* Черный с непрозрачностью */
+}
+/* Модальное содержание (изображение) */
+.modal-content1 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Заголовок модального изображения ( текст изображения) - та же ширина, что и изображение */
+  #caption1 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Добавить анимацию - величение модели */
+  .modal-content1, #caption1 {
+    -webkit-animation-name:zoom;
+    -webkit-animation-duration:0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  @-webkit-keyframes zoom{
+    from{-webkit-transform: scale(0);}
+    to{-webkit-transform: scale(1);}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  /* Кнопка закрытия */
+  .close1 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close1:hover,
+  .close1:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Ширина изображения на меньших экранах */
+  @media only screen and (max-width: 700px){
+    .modal-content1 {
+      width: 100%;
+    }
+  }
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+  #myImg2{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#myImg2:hover{opacity: 0.7;}
+.modal2{
+    display: none;
+    position: fixed; /* Оставаться на месте */
+    z-index: 1; /* Сидеть на вершине */
+    padding-top: 100px; /* Расположение коробки */
+    left: 0;
+    top: 0;
+    width: 100%; /* Полная ширина */
+    height: 100%; /* Полный высота */
+    overflow: auto; /* Включите прокрутку, если это необходимо */
+    background-color: rgb(0,0,0); /* Цвет запасной вариант */
+    background-color: rgba(0,0,0,0.9); /* Черный с непрозрачностью */
+}
+/* Модальное содержание (изображение) */
+.modal-content2 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Заголовок модального изображения ( текст изображения) - та же ширина, что и изображение */
+  #caption2 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Добавить анимацию - величение модели */
+  .modal-content2, #caption2 {
+    -webkit-animation-name:zoom;
+    -webkit-animation-duration:0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  @-webkit-keyframes zoom{
+    from{-webkit-transform: scale(0);}
+    to{-webkit-transform: scale(1);}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  /* Кнопка закрытия */
+  .close2 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close2:hover,
+  .close2:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Ширина изображения на меньших экранах */
+  @media only screen and (max-width: 700px){
+    .modal-content2 {
+      width: 100%;
+    }
+  }
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+#myImg3{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#myImg3:hover{opacity: 0.7;}
+.modal3{
+    display: none;
+    position: fixed; /* Оставаться на месте */
+    z-index: 1; /* Сидеть на вершине */
+    padding-top: 100px; /* Расположение коробки */
+    left: 0;
+    top: 0;
+    width: 100%; /* Полная ширина */
+    height: 100%; /* Полный высота */
+    overflow: auto; /* Включите прокрутку, если это необходимо */
+    background-color: rgb(0,0,0); /* Цвет запасной вариант */
+    background-color: rgba(0,0,0,0.9); /* Черный с непрозрачностью */
+}
+/* Модальное содержание (изображение) */
+.modal-content3 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Заголовок модального изображения ( текст изображения) - та же ширина, что и изображение */
+  #caption3 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Добавить анимацию - величение модели */
+  .modal-content3, #caption3 {
+    -webkit-animation-name:zoom;
+    -webkit-animation-duration:0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  @-webkit-keyframes zoom{
+    from{-webkit-transform: scale(0);}
+    to{-webkit-transform: scale(1);}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  /* Кнопка закрытия */
+  .close3 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close3:hover,
+  .close3:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Ширина изображения на меньших экранах */
+  @media only screen and (max-width: 700px){
+    .modal-content3 {
+      width: 100%;
+    }
+  }
+
+  /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+  #myImg4{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#myImg4:hover{opacity: 0.7;}
+.modal4{
+    display: none;
+    position: fixed; /* Оставаться на месте */
+    z-index: 1; /* Сидеть на вершине */
+    padding-top: 100px; /* Расположение коробки */
+    left: 0;
+    top: 0;
+    width: 100%; /* Полная ширина */
+    height: 100%; /* Полный высота */
+    overflow: auto; /* Включите прокрутку, если это необходимо */
+    background-color: rgb(0,0,0); /* Цвет запасной вариант */
+    background-color: rgba(0,0,0,0.9); /* Черный с непрозрачностью */
+}
+/* Модальное содержание (изображение) */
+.modal-content4 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Заголовок модального изображения ( текст изображения) - та же ширина, что и изображение */
+  #caption4 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Добавить анимацию - величение модели */
+  .modal-content4, #caption4 {
+    -webkit-animation-name:zoom;
+    -webkit-animation-duration:0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  @-webkit-keyframes zoom{
+    from{-webkit-transform: scale(0);}
+    to{-webkit-transform: scale(1);}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  /* Кнопка закрытия */
+  .close4 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close4:hover,
+  .close4:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Ширина изображения на меньших экранах */
+  @media only screen and (max-width: 700px){
+    .modal-content4 {
+      width: 100%;
+    }
+  }
+    /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+    #myImg5{
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+  }
+  #myImg5:hover{opacity: 0.7;}
+  .modal5{
+      display: none;
+      position: fixed; /* Оставаться на месте */
+      z-index: 1; /* Сидеть на вершине */
+      padding-top: 100px; /* Расположение коробки */
+      left: 0;
+      top: 0;
+      width: 100%; /* Полная ширина */
+      height: 100%; /* Полный высота */
+      overflow: auto; /* Включите прокрутку, если это необходимо */
+      background-color: rgb(0,0,0); /* Цвет запасной вариант */
+      background-color: rgba(0,0,0,0.9); /* Черный с непрозрачностью */
+  }
+  /* Модальное содержание (изображение) */
+  .modal-content5 {
+      margin: auto;
+      display: block;
+      width: 80%;
+      max-width: 700px;
+    }
+    
+    /* Заголовок модального изображения ( текст изображения) - та же ширина, что и изображение */
+    #caption5 {
+      margin: auto;
+      display: block;
+      width: 80%;
+      max-width: 700px;
+      text-align: center;
+      color: #ccc;
+      padding: 10px 0;
+      height: 150px;
+    }
+    
+    /* Добавить анимацию - величение модели */
+    .modal-content5, #caption5 {
+      -webkit-animation-name:zoom;
+      -webkit-animation-duration:0.6s;
+      animation-name: zoom;
+      animation-duration: 0.6s;
+    }
+    @-webkit-keyframes zoom{
+      from{-webkit-transform: scale(0);}
+      to{-webkit-transform: scale(1);}
+    }
+    
+    @keyframes zoom {
+      from {transform:scale(0)}
+      to {transform:scale(1)}
+    }
+    
+    /* Кнопка закрытия */
+    .close5 {
+      position: absolute;
+      top: 15px;
+      right: 35px;
+      color: #f1f1f1;
+      font-size: 40px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    
+    .close5:hover,
+    .close5:focus {
+      color: #bbb;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    
+    /* 100% Ширина изображения на меньших экранах */
+    @media only screen and (max-width: 700px){
+      .modal-content5 {
+        width: 100%;
+      }
+    }
+        /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+        #myImg6{
+          border-radius: 5px;
+          cursor: pointer;
+          transition: 0.3s;
+      }
+      #myImg6:hover{opacity: 0.7;}
+      .modal6{
+          display: none;
+          position: fixed; /* Оставаться на месте */
+          z-index: 1; /* Сидеть на вершине */
+          padding-top: 100px; /* Расположение коробки */
+          left: 0;
+          top: 0;
+          width: 100%; /* Полная ширина */
+          height: 100%; /* Полный высота */
+          overflow: auto; /* Включите прокрутку, если это необходимо */
+          background-color: rgb(0,0,0); /* Цвет запасной вариант */
+          background-color: rgba(0,0,0,0.9); /* Черный с непрозрачностью */
+      }
+      /* Модальное содержание (изображение) */
+      .modal-content6 {
+          margin: auto;
+          display: block;
+          width: 80%;
+          max-width: 700px;
+        }
+        
+        /* Заголовок модального изображения ( текст изображения) - та же ширина, что и изображение */
+        #caption6 {
+          margin: auto;
+          display: block;
+          width: 80%;
+          max-width: 700px;
+          text-align: center;
+          color: #ccc;
+          padding: 10px 0;
+          height: 150px;
+        }
+        
+        /* Добавить анимацию - величение модели */
+        .modal-content6, #caption6 {
+          -webkit-animation-name:zoom;
+          -webkit-animation-duration:0.6s;
+          animation-name: zoom;
+          animation-duration: 0.6s;
+        }
+        @-webkit-keyframes zoom{
+          from{-webkit-transform: scale(0);}
+          to{-webkit-transform: scale(1);}
+        }
+        
+        @keyframes zoom {
+          from {transform:scale(0)}
+          to {transform:scale(1)}
+        }
+        
+        /* Кнопка закрытия */
+        .close6 {
+          position: absolute;
+          top: 15px;
+          right: 35px;
+          color: #f1f1f1;
+          font-size: 40px;
+          font-weight: bold;
+          transition: 0.3s;
+        }
+        
+        .close6:hover,
+        .close6:focus {
+          color: #bbb;
+          text-decoration: none;
+          cursor: pointer;
+        }
+        
+        /* 100% Ширина изображения на меньших экранах */
+        @media only screen and (max-width: 700px){
+          .modal-content6 {
+            width: 100%;
+          }
+        }
+        #myImg7{
+          border-radius: 5px;
+          cursor: pointer;
+          transition: 0.3s;
+      }
+      #myImg7:hover{opacity: 0.7;}
+      .modal7{
+          display: none;
+          position: fixed; /* Оставаться на месте */
+          z-index: 1; /* Сидеть на вершине */
+          padding-top: 100px; /* Расположение коробки */
+          left: 0;
+          top: 0;
+          width: 100%; /* Полная ширина */
+          height: 100%; /* Полный высота */
+          overflow: auto; /* Включите прокрутку, если это необходимо */
+          background-color: rgb(0,0,0); /* Цвет запасной вариант */
+          background-color: rgba(0,0,0,0.9); /* Черный с непрозрачностью */
+      }
+      /* Модальное содержание (изображение) */
+      .modal-content7 {
+          margin: auto;
+          display: block;
+          width: 80%;
+          max-width: 700px;
+        }
+        
+        /* Заголовок модального изображения ( текст изображения) - та же ширина, что и изображение */
+        #caption7 {
+          margin: auto;
+          display: block;
+          width: 80%;
+          max-width: 700px;
+          text-align: center;
+          color: #ccc;
+          padding: 10px 0;
+          height: 150px;
+        }
+        
+        /* Добавить анимацию - величение модели */
+        .modal-content7, #caption7 {
+          -webkit-animation-name:zoom;
+          -webkit-animation-duration:0.6s;
+          animation-name: zoom;
+          animation-duration: 0.6s;
+        }
+        @-webkit-keyframes zoom{
+          from{-webkit-transform: scale(0);}
+          to{-webkit-transform: scale(1);}
+        }
+        
+        @keyframes zoom {
+          from {transform:scale(0)}
+          to {transform:scale(1)}
+        }
+        
+        /* Кнопка закрытия */
+        .close7 {
+          position: absolute;
+          top: 15px;
+          right: 35px;
+          color: #f1f1f1;
+          font-size: 40px;
+          font-weight: bold;
+          transition: 0.3s;
+        }
+        
+        .close7:hover,
+        .close7:focus {
+          color: #bbb;
+          text-decoration: none;
+          cursor: pointer;
+        }
+        
+        /* 100% Ширина изображения на меньших экранах */
+        @media only screen and (max-width: 700px){
+          .modal-content7 {
+            width: 100%;
+          }
+        }
+      /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+      #myImg8{
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    #myImg8:hover{opacity: 0.7;}
+    .modal8{
+        display: none;
+        position: fixed; /* Оставаться на месте */
+        z-index: 1; /* Сидеть на вершине */
+        padding-top: 100px; /* Расположение коробки */
+        left: 0;
+        top: 0;
+        width: 100%; /* Полная ширина */
+        height: 100%; /* Полный высота */
+        overflow: auto; /* Включите прокрутку, если это необходимо */
+        background-color: rgb(0,0,0); /* Цвет запасной вариант */
+        background-color: rgba(0,0,0,0.9); /* Черный с непрозрачностью */
+    }
+    /* Модальное содержание (изображение) */
+    .modal-content8 {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+      }
+      
+      /* Заголовок модального изображения ( текст изображения) - та же ширина, что и изображение */
+      #caption8 {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 900px;
+        text-align: center;
+        color: #ccc;
+        padding: 10px 0;
+        height: 150px;
+      }
+      
+      /* Добавить анимацию - величение модели */
+      .modal-content8, #caption8 {
+        -webkit-animation-name:zoom;
+        -webkit-animation-duration:0.6s;
+        animation-name: zoom;
+        animation-duration: 0.6s;
+      }
+      @-webkit-keyframes zoom{
+        from{-webkit-transform: scale(0);}
+        to{-webkit-transform: scale(1);}
+      }
+      
+      @keyframes zoom {
+        from {transform:scale(0)}
+        to {transform:scale(1)}
+      }
+      
+      /* Кнопка закрытия */
+      .close8 {
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        color: #f1f1f1;
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
+      }
+      
+      .close8:hover,
+      .close8:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      
+      /* 100% Ширина изображения на меньших экранах */
+      @media only screen and (max-width: 700px){
+        .modal-content8 {
+          width: 100%;
+        }
+      }
+    /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+    #myImg9{
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+  }
+  #myImg9:hover{opacity: 0.7;}
+  .modal9{
+      display: none;
+      position: fixed; /* Оставаться на месте */
+      z-index: 1; /* Сидеть на вершине */
+      padding-top: 100px; /* Расположение коробки */
+      left: 0;
+      top: 0;
+      width: 100%; /* Полная ширина */
+      height: 100%; /* Полный высота */
+      overflow: auto; /* Включите прокрутку, если это необходимо */
+      background-color: rgb(0,0,0); /* Цвет запасной вариант */
+      background-color: rgba(0,0,0,0.9); /* Черный с непрозрачностью */
+  }
+  /* Модальное содержание (изображение) */
+  .modal-content9 {
+      margin: auto;
+      display: block;
+      width: 80%;
+      max-width: 700px;
+    }
+    
+    /* Заголовок модального изображения ( текст изображения) - та же ширина, что и изображение */
+    #caption9 {
+      margin: auto;
+      display: block;
+      width: 80%;
+      max-width: 700px;
+      text-align: center;
+      color: #ccc;
+      padding: 10px 0;
+      height: 150px;
+    }
+    
+    /* Добавить анимацию - величение модели */
+    .modal-content9, #caption9 {
+      -webkit-animation-name:zoom;
+      -webkit-animation-duration:0.6s;
+      animation-name: zoom;
+      animation-duration: 0.6s;
+    }
+    @-webkit-keyframes zoom{
+      from{-webkit-transform: scale(0);}
+      to{-webkit-transform: scale(1);}
+    }
+    
+    @keyframes zoom {
+      from {transform:scale(0)}
+      to {transform:scale(1)}
+    }
+    
+    /* Кнопка закрытия */
+    .close9 {
+      position: absolute;
+      top: 15px;
+      right: 35px;
+      color: #f1f1f1;
+      font-size: 40px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    
+    .close9:hover,
+    .close9:focus {
+      color: #bbb;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    
+    /* 100% Ширина изображения на меньших экранах */
+    @media only screen and (max-width: 700px){
+      .modal-content9 {
+        width: 100%;
+      }
+    }
+  /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+  #myImg10{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#myImg10:hover{opacity: 0.7;}
+.modal10{
+    display: none;
+    position: fixed; /* Оставаться на месте */
+    z-index: 1; /* Сидеть на вершине */
+    padding-top: 100px; /* Расположение коробки */
+    left: 0;
+    top: 0;
+    width: 100%; /* Полная ширина */
+    height: 100%; /* Полный высота */
+    overflow: auto; /* Включите прокрутку, если это необходимо */
+    background-color: rgb(0,0,0); /* Цвет запасной вариант */
+    background-color: rgba(0,0,0,0.9); /* Черный с непрозрачностью */
+}
+/* Модальное содержание (изображение) */
+.modal-content10 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Заголовок модального изображения ( текст изображения) - та же ширина, что и изображение */
+  #caption10 {
+    margin: auto;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Добавить анимацию - величение модели */
+  .modal-content10, #caption10 {
+    -webkit-animation-name:zoom;
+    -webkit-animation-duration:0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  @-webkit-keyframes zoom{
+    from{-webkit-transform: scale(0);}
+    to{-webkit-transform: scale(1);}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  /* Кнопка закрытия */
+  .close10 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close10:hover,
+  .close10:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Ширина изображения на меньших экранах */
+  @media only screen and (max-width: 700px){
+    .modal-content10 {
+      width: 100%;
+    }
+  }
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
